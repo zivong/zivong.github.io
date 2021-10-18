@@ -1,0 +1,37 @@
+title: Zivong's Blog
+tagline: Writing is thinking
+description: A place to record what I read, what I think, and what I do.
+author:
+  name: Song-Zi Vong
+  url: https://twitter.com/zivong91
+
+twitter:
+  username: zivong91
+
+defaults:
+  - scope:
+      path: ""      
+      type: "posts"
+    values:
+      author: "Song-Zi Vong"
+      image: "apple-touch-icon.png"
+  - scope:
+      path: ""      
+      type: "pages"
+    values:
+      author: "Song-Zi Vong"
+      image: "apple-touch-icon.png"
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+remote_theme: zivong/ockham
+
+paginate: 10
+
+disqus: zivong
+google_analytics: G-DBXE19KQCJ
