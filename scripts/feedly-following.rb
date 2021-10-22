@@ -11,4 +11,4 @@ list.each { |elem| data += "| [#{elem['title']}](#{elem['website']}) | #{elem['s
 
 data += "\n#{Time.now}\n"
 
-File.write("following.md", data)
+File.write("_pages/following.md", data)

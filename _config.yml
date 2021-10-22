@@ -8,6 +8,9 @@ author:
 twitter:
   username: zivong91
 
+include:
+  - _pages/
+
 defaults:
   - scope:
       path: ""      
