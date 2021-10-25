@@ -9,7 +9,7 @@ twitter:
   username: zivong91
 
 include:
-  - _pages/
+  - _pages
 
 defaults:
   - scope:
